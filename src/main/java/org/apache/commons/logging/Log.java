@@ -67,7 +67,7 @@ public interface Log {
      *
      * @param message log this message
      */
-    void debug(Object message);
+    String debug(Object message);
 
     /**
      * Logs an error with debug log level.
